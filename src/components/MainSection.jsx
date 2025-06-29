@@ -50,13 +50,13 @@ const MainSection = () => {
   const getGreeting = () => {
     const hours = new Date().getHours();
     return hours < 2
-      ? "Good Morning"
+      ? "Morning Vibes ✨"
       : hours < 13
-      ? "Good Afternoon"
+      ? "Afternoon Vibes ✨"
       : hours < 17
-      ? "Good Evening"
+      ? "Evening Chill's ✨"
       : hours < 20
-      ? "Good Night";
+      ? "Lofi Night's 💫";
   };
 
   useEffect(() => {
