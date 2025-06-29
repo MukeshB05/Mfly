@@ -55,13 +55,14 @@ const MainSection = () => {
     night = (hour >= 21 || hour <= 3);
 
   if (morning) {
-    return "Morning Vibes ✨"
+    return "Morning Vibes ✨";
   } else if (afternoon){
-    return "Afternoon Vibes ✨"
+    return "Afternoon Vibes ✨";
   } else if (evening) {
-    return "Evening Chill's ✨"
+    return "Evening Chill's ✨";
   } else if (night) {
     return "Lofi Night's 💫";
+    }
   };
 
   useEffect(() => {
