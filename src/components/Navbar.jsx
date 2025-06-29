@@ -91,9 +91,9 @@ const Navbar = () => {
 
   const getGreeting = () => {
     const hours = new Date().getHours();
-    return hours < 2
+    return hours < 12
       ? "Morning Vibes ✨"
-      : hours < 13
+      : hours < 15
       ? "Afternoon Vibes ✨"
       : hours < 17
       ? "Evening Chill's ✨"
