@@ -61,8 +61,7 @@ const MainSection = () => {
   } else if (evening) {
     return "Evening Chill's ✨"
   } else if (night) {
-    return "Lofi Night's 💫"
-    }
+    return "Lofi Night's 💫";
   };
 
   useEffect(() => {
