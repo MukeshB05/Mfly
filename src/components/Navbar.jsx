@@ -92,13 +92,10 @@ const Navbar = () => {
   const getGreeting = () => {
     const hours = new Date().getHours();
     return hours < 12
-      ? "Morning Vibes"
-      : hours < 15
-      ? "Afternoon Vibes"
-      : hours < 17
-      ? "Evening Chill's"
-      : hours < 20
-      ? "Lofi Night's";
+      ? "Good Morning"
+      : hours < 18
+      ? "Good Afternoon"
+      : "Good Evening";
   };
 
   const GetData = async(suggestion) => {
