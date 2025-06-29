@@ -49,11 +49,14 @@ const MainSection = () => {
 
   const getGreeting = () => {
     const hours = new Date().getHours();
-    return hours < 12
+    return hours < 2
       ? "Good Morning"
-      : hours < 18
+      : hours < 13
       ? "Good Afternoon"
-      : "Good Evening";
+      : hours < 17
+      ? "Good Evening"
+      : hours < 20
+      ? "Good Night";
   };
 
   useEffect(() => {
