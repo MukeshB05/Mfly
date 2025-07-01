@@ -48,17 +48,12 @@ const MainSection = () => {
   };
 
   const getGreeting = () => {
-    const currentTime = +dayjs().format('HH')
-    // var hours = new Date().hours  // or with Vanilla JavaScript, hours in 24
-
-    if (currentTime >= 6 && currentTime < 12) {
-      return "Good morning"
-    } else if (currentTime >= 12 && currentTime < 18) {
-      return "Good afternoon"
-    } else if (currentTime >= 18 && currentTime < 22) {
-      return "Good evening"
-    } else {
-      return "Good night";
+    const hours = new Date().getHours();
+    return hours < 12
+      ? "Good Morning"
+      : hours < 18
+      ? "Good Afternoon"
+      : "Good Evening";
   };
 
   useEffect(() => {
