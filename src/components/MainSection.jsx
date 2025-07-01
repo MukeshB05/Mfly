@@ -58,8 +58,7 @@ const MainSection = () => {
     } else if (currentTime >= 18 && currentTime < 22) {
       return "Good evening"
     } else {
-      return "Good night"
-    }
+      return "Good night";
   };
 
   useEffect(() => {
