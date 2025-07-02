@@ -98,7 +98,7 @@ function Browse() {
               ref={scrollRef}
               className=" grid lg:grid-rows-2 lg:grid-cols-none scroll-smooth grid-cols-2  lg:grid-flow-col-dense gap-[2rem] w-full px-[2rem] overflow-x-scroll scroll-hide">
               {playlists.map((genre) => (
-                <span key={genre.id} onClick={() => handlePlaylistClick(genre)} className="h-[13rem] overflow-hidden w-[10rem] cursor-pointer py-1 card rounded-md ">
+                <span key={genre.id} onClick={() => handlePlaylistClick(genre)} className="h-[13rem] overflow-hidden w-[20rem] cursor-pointer py-1 card rounded-md ">
                   <img src={genre.image[2].url} className="h-[10rem] p-2  rounded-2xl hover:brightness-[0.65] " />
                   <p className="text-center text-[14px] px-1">{genre.name ? he.decode(genre.name) : "Empty"}</p>
                 </span>
