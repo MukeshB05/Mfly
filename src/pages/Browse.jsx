@@ -43,8 +43,8 @@ function Browse() {
 
     try {
       setLoading(true);
-      const response = await fetch(`https://jiosavan-api-with-playlist.vercel.app/api/search/playlists?query=${genre.toLowerCase()}&limit=30`);
-      // const response = await fetch(`https://saavn.dev/api/search/playlists?query=${genre.toLowerCase()}&limit=30`);
+      const response = await fetch(`https://jiosavan-api-with-playlist.vercel.app/api/search/playlists?query=${genre.toLowerCase()}&limit=50`);
+      // const response = await fetch(`https://saavn.dev/api/search/playlists?query=${genre.toLowerCase()}&limit=50`);
       
       const data = await response.json();
      
@@ -96,7 +96,7 @@ function Browse() {
 
             <div
               ref={scrollRef}
-              className=" grid lg:grid-rows-2 lg:grid-cols-none scroll-smooth grid-cols-2  lg:grid-flow-col-dense gap-[0.625rem] w-full px-[2rem] overflow-x-scroll scroll-hide">
+              className=" grid lg:grid-rows-2 lg:grid-cols-none scroll-smooth grid-cols-2  lg:grid-flow-col-dense gap-[0.625rem] w-full px-[4rem] overflow-x-scroll scroll-hide">
               {playlists.map((genre) => (
                 <span key={genre.id} onClick={() => handlePlaylistClick(genre)} className="h-[13rem] overflow-hidden w-[10rem] cursor-pointer py-1 card rounded-md ">
                   <img src={genre.image[2].url} className="h-[10rem] p-2  rounded-2xl hover:brightness-[0.65] " />
