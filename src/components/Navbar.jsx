@@ -145,12 +145,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center ">
             <span className="bg"></span>
             <div className="">
-              <span className="Musi text-zinc-600 font-extrabold text-2xl lg:text-3xl">
-                Musi
-              </span>
-              <span className="fy text-zinc-200 font-extrabold text-2xl lg:text-3xl">
-                fy
-              </span>
+              
             </div>
           </Link>
 
