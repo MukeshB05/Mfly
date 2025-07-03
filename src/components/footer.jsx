@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="ml-[4rem] flex flex-col ">
         <div className="flex items-center ml-[-10px]">
         <span className="bg"></span>
+        <div className="gap-1">
         <div >
         <div>
             <pre className="lg:text-sm text-xs">Made by Mukesh B</pre>
