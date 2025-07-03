@@ -8,7 +8,13 @@ const Footer = () => {
         <div className="flex items-center ml-[-10px]">
         <span className="bg"></span>
         <div className="gap-1">
-        <div >
+          <span className="  font-extrabold text-2xl lg:text-3xl "></span>
+          <span className=" font-extrabold text-2xl lg:text-3xl "></span>
+        </div>
+        </div>
+
+        
+        <div>
         <div>
             <pre className="lg:text-sm text-xs">Made by Mukesh B</pre>
         <ul className="flex gap-4 ">
