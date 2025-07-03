@@ -188,8 +188,8 @@ li:hover{
 .bg {
   background: url("/public/MukesMusic4u.png");
   margin-left: 0.5rem;
-  height: 119px;
-  width: 280px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
