@@ -143,8 +143,16 @@ const Navbar = () => {
       <div className="flex  items-center gap-[4rem] mb-2 lg:mb-0 w-fit">
         <div className="flex items-center lg:gap-[4rem] gap-5  h-[61px]">
           <Link to="/" className="flex items-center ">
-            <img class="h-8 w-auto" src="https://i.ibb.co/kgqH4rG6/Mukesh-Music4-U.png" alt="">
-            </Link>
+            <span className="bg"></span>
+            <div className="">
+              <span className="Dreamly text-blue-700 font-extrabold text-2xl lg:text-3xl">
+                Musi
+              </span>
+              <span className="5 text-blue-700 font-extrabold text-2xl lg:text-3xl">
+                fy
+              </span>
+            </div>
+          </Link>
 
           <div className="text-xl pl-6 w-max flex self-center lg:hidden font-semibold ">
             {getGreeting()}
