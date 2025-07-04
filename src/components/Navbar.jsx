@@ -146,10 +146,10 @@ const Navbar = () => {
             <span className="bg"></span>
             <div className="">
               <span className="Dreamly text-blue-700 font-extrabold text-2xl lg:text-3xl">
-                Musi
+                Dreamly
               </span>
               <span className="5 text-blue-700 font-extrabold text-2xl lg:text-3xl">
-                fy
+                5
               </span>
             </div>
           </Link>
