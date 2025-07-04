@@ -4,7 +4,7 @@ import { getArtistbyQuery, getSearchData, getSongbyQuery, getSuggestionSong } fr
 import MusicContext from "../context/MusicContext";
 import he from "he";
 import Theme from "../../theme";
-import logo from "./logo.svg";
+import logo from "./public/logo.svg";
 import { IoSearchOutline } from "react-icons/io5";
 const Navbar = () => {
   const { playMusic } = useContext(MusicContext);
