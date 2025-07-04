@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex items-center ml-[-10px]">
         <span className="bg"></span>
         <div className="gap-1">
-          <span className="  font-extrabold text-2xl lg:text-3xl "></span>
-          <span className=" font-extrabold text-2xl lg:text-3xl "></span>
+          <span className="M5 font-extrabold text-2xl lg:text-3xl ">M5</span>
+          <span className="Music font-extrabold text-2xl lg:text-3xl ">Music</span>
         </div>
         </div>
 
