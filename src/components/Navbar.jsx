@@ -4,7 +4,6 @@ import { getArtistbyQuery, getSearchData, getSongbyQuery, getSuggestionSong } fr
 import MusicContext from "../context/MusicContext";
 import he from "he";
 import Theme from "../../theme";
-import logo from "./public/logo.svg";
 import { IoSearchOutline } from "react-icons/io5";
 const Navbar = () => {
   const { playMusic } = useContext(MusicContext);
@@ -144,8 +143,7 @@ const Navbar = () => {
       <div className="flex  items-center gap-[4rem] mb-2 lg:mb-0 w-fit">
         <div className="flex items-center lg:gap-[4rem] gap-5  h-[61px]">
           <Link to="/" className="flex items-center ">
-            <img src={logo} className='h-8 w-110 rounded-xl' alt="" />
-              
+            <img class="h-8 w-auto" src="https://i.ibb.co/kgqH4rG6/Mukesh-Music4-U.png" alt="">
             </Link>
 
           <div className="text-xl pl-6 w-max flex self-center lg:hidden font-semibold ">
