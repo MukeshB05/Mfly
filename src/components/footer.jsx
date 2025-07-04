@@ -8,17 +8,17 @@ const Footer = () => {
         <div className="flex items-center ml-[-10px]">
         <span className="bg"></span>
         <div className="gap-1">
-          <span className="M5  font-extrabold text-2xl lg:text-3xl ">M5</span>
-          <span className="Music font-extrabold text-2xl lg:text-3xl ">Music</span>
+          <span className="Dreamly  font-extrabold text-2xl lg:text-3xl ">Dreamly</span>
+          <span className="5 font-extrabold text-2xl lg:text-3xl ">5</span>
         </div>
         </div>
 
-        
+        <div >
         <div>
-        <div>
-            <pre className="lg:text-sm text-xs">Made by Mukesh B</pre>
+            <pre className="lg:text-sm text-xs">Website Create & Handled by Mukesh. </pre>
         <ul className="flex gap-4 ">
-            <li><a href="https://www.instagram.com/mukeshb2305/" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Instagram</pre></a></li>
+            <li><a href="https://www.instagram.com/mukeshb2305" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Source Code</pre></a></li>
+            <li><a href="https://www.instagram.com/dreamlyfive" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Instagram</pre></a></li>
 
         </ul>
         </div></div>
