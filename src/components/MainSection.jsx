@@ -53,8 +53,10 @@ const MainSection = () => {
       ? "Good Morning"
       : hours < 18
       ? "Good Afternoon"
-      : "Good Evening";
-  };
+      : hours < 21
+      ? "Good Evening"
+      : "Good Night";
+   };
 
   useEffect(() => {
     const fetchSongData = async () => {
