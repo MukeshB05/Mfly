@@ -245,11 +245,11 @@ li:hover{
 
 /* Footer Section */
 .footer-section {
-  padding-top: 1rem;
+  padding-top: 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
   border-top: 1px solid #2b2b2b;
 }
 
