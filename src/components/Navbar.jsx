@@ -148,8 +148,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center ">
             <span className="bg"></span>
             <div className="">
-              <span className="Dreamly text-blue-700 font-extrabold text-2xl lg:text-3xl">
-                Dreamly
+              <span className="D text-blue-700 font-extrabold text-2xl lg:text-3xl">
+                D
               </span>
               <span className="5 text-blue-700 font-extrabold text-2xl lg:text-3xl">
                 5
