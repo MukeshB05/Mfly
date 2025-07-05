@@ -187,9 +187,9 @@ li:hover{
 /* Background Image */
 .bg {
   background: url("/public/Untitled100.svg");
-  margin-left: 0.5rem;
-  height: 72px;
-  width: 72px;
+  margin-left: 0.9rem;
+  height: 82px;
+  width: 82px;
   object-fit: cover;
 }
 
