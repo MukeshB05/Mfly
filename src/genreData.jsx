@@ -26,26 +26,26 @@ export const genreData = {
         "explicitContent": false
       },
       {
-        "id": "1134595537",
-        "name": "English: India Superhits Top 50",
+        "id": "817876204",
+        "name": "Hariharan - 90s Hits",
         "type": "playlist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/editorial/English-IndiaSuperhitsTop50_20250124035621_50x50.jpg"
+            "url": "https://c.saavncdn.com/editorial/Hariharan90sHits_20230322152159_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/editorial/English-IndiaSuperhitsTop50_20250124035621_150x150.jpg"
+            "url": "https://c.saavncdn.com/editorial/Hariharan90sHits_20230322152159_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/editorial/English-IndiaSuperhitsTop50_20250124035621_500x500.jpg"
+            "url": "https://c.saavncdn.com/editorial/Hariharan90sHits_20230322152159_500x500.jpg"
           }
         ],
-        "url": "https://www.jiosaavn.com/featured/english-india-superhits-top-50/aXoCADwITrUCObrEMJSxEw__",
+        "url": "https://www.jiosaavn.com/featured/hariharan-90s-hits-/VX9Fbv,yS3-ufxkxMEIbIw__",
         "songCount": 50,
-        "language": "english",
+        "language": "tamil",
         "explicitContent": false
       },
       {
