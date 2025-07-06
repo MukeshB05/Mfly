@@ -631,25 +631,25 @@ export const genreData = {
 export const artistData = {
   "results": [
       {
-        "id": "459320",
-        "name": "Arijit Singh",
+        "id": "456196",
+        "name": "Vijay",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Arijit_Singh_004_20241118063717_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_003_20240103075444_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Arijit_Singh_004_20241118063717_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_003_20240103075444_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Arijit_Singh_004_20241118063717_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_003_20240103075444_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/arijit-singh-songs/LlRWpHzy3Hk_"
+        "url": "https://www.jiosaavn.com/artist/vijay-songs/Poyjz0rbAbA_"
       },
       {
         "id": "456323",
