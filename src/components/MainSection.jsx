@@ -259,7 +259,7 @@ const MainSection = () => {
         <h2 className=" m-4 mt-0 text-xl lg:text-2xl font-semibold  w-full ml-[1rem] lg:ml-[3rem] ">
           Malayalam Top Albums
         </h2>
-        <AlbumSlider albums={albums} />
+        <AlbumSlider albums={malayalam} />
       </div>
       <br />
 
