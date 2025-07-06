@@ -92,6 +92,17 @@ const MainSection = () => {
       }
     };
 
+    const fetchAlbumData = async () => {
+      try {
+        const album = await searchAlbumByQuery("malayalam");
+        setAlbums(album.data.results);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     const fetchArtistData = async () => {
       try {
         const artist = await artistData;
@@ -234,10 +245,19 @@ const MainSection = () => {
 
       <br />
 
-      {/* Top Albums Section */}
+      {/* Tamil Top Albums Section */}
       <div className="w-full">
         <h2 className=" m-4 mt-0 text-xl lg:text-2xl font-semibold  w-full ml-[1rem] lg:ml-[3rem] ">
-          Top Albums
+          Tamil Top Albums
+        </h2>
+        <AlbumSlider albums={albums} />
+      </div>
+      <br />
+
+      {/* Malayalam Top Albums Section */}
+      <div className="w-full">
+        <h2 className=" m-4 mt-0 text-xl lg:text-2xl font-semibold  w-full ml-[1rem] lg:ml-[3rem] ">
+          Malayalam Top Albums
         </h2>
         <AlbumSlider albums={albums} />
       </div>
