@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="lg:block hidden">
         <ul className="flex flex-col gap-[0.2rem] pb-5">
           <p className=" font-sans text-xs font-semibold pb-2">TOP ARTISTS</p>
-        <li><Link to={`/artists/459320`} >Arijit Singh</Link> </li>
+        <li><Link to={`/artists/456196`} >Vijay</Link> </li>
         <li><Link to={`/artists/456863`} >Badshah</Link> </li>
         <li><Link to={`/artists/485956`} >Honey Singh </Link> </li>
         <li><Link to={`/artists/468245`} >Diljit Dosanjh </Link> </li>
