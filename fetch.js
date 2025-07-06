@@ -70,7 +70,7 @@ export const getArtistbyQuery = async (e , limit) => {
 
 export const getSongById = async (songId) => {
     try {
-        const response = await fetch(`${api_url}songs/${songId}&limit=130`);
+        const response = await fetch(`${api_url}songs/${songId}`);
         const data = await response.json();
         if (!response.ok) {
             throw new Error(`Failed to fetch song: ${response.status} ${response.statusText}`);
