@@ -652,67 +652,67 @@ export const artistData = {
         "url": "https://www.jiosaavn.com/artist/vijay-songs/Poyjz0rbAbA_"
       },
       {
-        "id": "456323",
-        "name": "Pritam",
+        "id": "455219",
+        "name": "Deva",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Pritam_Chakraborty-20170711073326_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Deva_20190801133857_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Pritam_Chakraborty-20170711073326_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Deva_20190801133857_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Pritam_Chakraborty-20170711073326_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Deva_20190801133857.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/pritam-songs/OaFg9HPZgq8_"
+        "url": "https://www.jiosaavn.com/artist/deva-songs/twMxVF52rYk_"
       },
       {
-        "id": "455130",
-        "name": "Shreya Ghoshal",
+        "id": "773021",
+        "name": "Hiphop Tamizha",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Shreya_Ghoshal_007_20241101074144_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Hiphop_Tamizha_002_20230315131424_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Shreya_Ghoshal_007_20241101074144_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Hiphop_Tamizha_002_20230315131424_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Shreya_Ghoshal_007_20241101074144_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Hiphop_Tamizha_002_20230315131424_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/shreya-ghoshal-songs/lIHlwHaxTZ0_"
+        "url": "https://www.jiosaavn.com/artist/hiphop-tamizha-songs/I9oAEdb3SkQ_"
       },
       {
-        "id": "464656",
-        "name": "Armaan Malik",
+        "id": "455162",
+        "name": "Hariharan",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Armaan_Malik_005_20240819091627_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Armaan_Malik_005_20240819091627_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Armaan_Malik_005_20240819091627_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/armaan-malik-songs/1iZ7Gi0bi1Y_"
+        "url": "https://www.jiosaavn.com/artist/hariharan-songs/Z2qyrGA65Yo_"
       },
       {
         "id": "485956",
