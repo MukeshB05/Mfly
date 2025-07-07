@@ -700,15 +700,15 @@ export const artistData = {
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Hariharan_500x500_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Hariharan_500x500.jpg"
           }
         ],
         "type": "artist",
