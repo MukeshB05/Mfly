@@ -49,26 +49,26 @@ export const genreData = {
         "explicitContent": false
       },
       {
-        "id": "110858205",
-        "name": "Trending Today",
+        "id": "81983404",
+        "name": "Let's Play - Vidyasagar - Malayalam",
         "type": "playlist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/editorial/charts_TrendingToday_134351_20230826113717_50x50.jpg"
+            "url": "https://c.saavncdn.com/editorial/Let_sPlayVidyasagarMalayalam_20241118101359_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/editorial/charts_TrendingToday_134351_20230826113717_150x150.jpg"
+            "url": "https://c.saavncdn.com/editorial/Let_sPlayVidyasagarMalayalam_20241118101359_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/editorial/charts_TrendingToday_134351_20230826113717_500x500.jpg"
+            "url": "https://c.saavncdn.com/editorial/Let_sPlayVidyasagarMalayalam_20241118101359_500x500.jpg"
           }
         ],
-        "url": "https://www.jiosaavn.com/featured/trending-today/I3kvhipIy73uCJW60TJk1Q__",
-        "songCount": 597,
-        "language": "english",
+        "url": "https://www.jiosaavn.com/featured/lets-play-vidyasagar-malayalam/NgU,HOFzQnA_",
+        "songCount": 44,
+        "language": "Malayalam",
         "explicitContent": false
       },
       {
