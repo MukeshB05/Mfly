@@ -1,7 +1,7 @@
 import { SitemapStream, streamToPromise } from "sitemap";
 import { createWriteStream } from "fs";
 
-const BASE_URL = "https://mukeshmusic4u.vercel.app/"; // Change this to your deployed Vercel URL
+const BASE_URL = "https://dreamly5.vercel.app/"; // Change this to your deployed Vercel URL
 
 const pages = [
   { url: "/", changefreq: "daily", priority: 1.0 },
