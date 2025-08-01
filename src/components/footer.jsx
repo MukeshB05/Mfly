@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex items-center ml-[-10px]">
         <span className="bg"></span>
         <div className="gap-1">
-          <span className="  font-extrabold text-2xl lg:text-3xl "> </span>
-          <span className=" font-extrabold text-2xl lg:text-3xl "> </span>
+          <span className="by  font-extrabold text-2xl lg:text-3xl ">by</span>
+          <span className=" MUKESH font-extrabold text-2xl lg:text-3xl "> MUKESH</span>
         </div>
         </div>
 
@@ -17,8 +17,8 @@ const Footer = () => {
         <div>
             <pre className="lg:text-sm text-xs">Website Create & Handled by Mukesh. </pre>
         <ul className="flex gap-4 ">
-            <li><a href="https://www.instagram.com/mukeshb2305" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Source Code</pre></a></li>
-            <li><a href="https://www.instagram.com/dreamlyfive" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Instagram</pre></a></li>
+            <li><a href="https://www.instagram.com/mukeshb2305" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Mukesh</pre></a></li>
+            <li><a href="https://www.instagram.com/dreamlyfive" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Dreamly5</pre></a></li>
 
         </ul>
         </div></div>
