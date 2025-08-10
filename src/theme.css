@@ -36,7 +36,7 @@
 
 .label {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
+  font-size: 5px;
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -66,7 +66,7 @@
 }
 
 .slider-icon {
-  font-size: 24px;
+  font-size: 4px;
   color: #ff5e62;
 }
 
