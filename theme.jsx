@@ -20,10 +20,10 @@ const Theme = () => {
       >
         <div className="theme-labels w-screen">
           <span className={`label ${theme === "light" ? "active  pl-[2rem]" : "hidden"}`}>
-            
+            LIGHT
           </span>
           <span className={`label ${theme === "dark" ? "active" : "hidden"}`}>
-            
+            DARK
           </span>
         </div>
         <div className="slider">
