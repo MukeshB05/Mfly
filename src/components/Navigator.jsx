@@ -1,5 +1,5 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
-import { IoMusic, IoMusicOutline, IoHeartOutline, IoHeartSharp } from "react-icons/io5";
+import { IoCompass, IoCompassOutline, IoHeartOutline, IoHeartSharp } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigator = () => {
@@ -22,9 +22,9 @@ const Navigator = () => {
       <Link to="/Browse">
         <div className="flex flex-col items-center text-sm">
           {location.pathname === "/Browse" ? (
-            <IoMusic className="text-2xl" />
+            <IoCompass className="text-2xl" />
           ) : (
-            <IoMusicOutline className="text-2xl" />
+            <IoCompassOutline className="text-2xl" />
           )}
           Browse
         </div>
