@@ -22,9 +22,9 @@ const Navigator = () => {
       <Link to="/Browse">
         <div className="flex flex-col items-center text-sm">
           {location.pathname === "/Browse" ? (
-            <IoCompass className="text-2xl" />
+            <IoMusic className="text-2xl" />
           ) : (
-            <IoCompassOutline className="text-2xl" />
+            <IoMusicOutline className="text-2xl" />
           )}
           Browse
         </div>
