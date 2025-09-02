@@ -1,5 +1,5 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
-import { IoCompass, IoCompassOutline, IoHeartOutline, IoHeartSharp } from "react-icons/io5";
+import { IoMusic, IoMusicOutline, IoHeartOutline, IoHeartSharp } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigator = () => {
