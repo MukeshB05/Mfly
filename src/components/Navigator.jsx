@@ -14,7 +14,7 @@ const Navigator = () => {
   
   return (
     
-    <div className="lg:hidden fixed bottom-0 z-20 w-full Navigator h-[3.6rem] lg:h-[3.5rem] flex items-center justify-around">
+    <div className="lg:hidden fixed bottom-0 z-20 w-full Navigator h-[3.6rem] lg:h-[3.5rem] flex items-center justify-around bg-white border-t border-gray-200">
       <Link to="/">
         <div className="flex flex-col items-center text-sm">
         {location.pathname === "/" ? (
