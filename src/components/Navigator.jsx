@@ -3,9 +3,11 @@ import { IoHeartOutline, IoHeartSharp, } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
 import { IoMdTV } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react"; // Added useState import
 
 const Navigator = () => {
   const location = useLocation();
+  const [showTVModal, setShowTVModal] = useState(false);
 
   return (
     <div className="lg:hidden fixed bottom-0 z-20 w-full Navigator h-[3.6rem] lg:h-[3.5rem] flex items-center justify-around">
@@ -57,10 +59,10 @@ const Navigator = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative w-full h-full max-w-4xl max-h-[80vh] bg-black">
             <button 
-              className="absolute -top-10 right-0 text-white text-2xl z-10"
+              className="absolute -top-10 right-0 text-white text-2xl z-10 p-2"
               onClick={() => setShowTVModal(false)}
             >
-              Close
+              × Close
             </button>
             <iframe
               src="https://kkxstreamlive.pages.dev/"
