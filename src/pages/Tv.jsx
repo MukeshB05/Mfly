@@ -1,13 +1,11 @@
 // TV.jsx (new component for the TV page)
 const Tv = () => {
   return (
-    <div className="w-full h-screen">
-      <iframe 
+    <div class="relative w-full h-96">
+      <iframe class="absolute top-0 left-0 w-full h-full"
         src="https://kkxstreamlive.pages.dev" 
-        title="KKX Stream Live"
-        className="w-full h-full border-0"
-        allowFullScreen
-      />
+        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
     </div>
   );
 };
