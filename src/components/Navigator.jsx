@@ -3,7 +3,6 @@ import { IoHeartOutline, IoHeartSharp, } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
 import { IoMdTV } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
-import { useState } from "react";
 
 const Navigator = () => {
   const location = useLocation();
