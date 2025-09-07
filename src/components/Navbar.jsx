@@ -170,9 +170,6 @@ const Navbar = () => {
           <Link to="/Favourite">
             <h2 className="lg:text-xl text-lg ">Favourite</h2>
           </Link>
-          <Link to="/Tv">
-            <h2 className="lg:text-xl text-lg ">Tv</h2>
-          </Link>
         </div>
       </div>
 
