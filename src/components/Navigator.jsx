@@ -1,7 +1,9 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
-import { IoHeartOutline, IoHeartSharp, IoTv, IoTvOutline } from "react-icons/io5";
+import { IoHeartOutline, IoHeartSharp, } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
+import { IoMdTV } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 
 const Navigator = () => {
   const location = useLocation();
@@ -42,17 +44,35 @@ const Navigator = () => {
         </div>
       </Link>
 
-      <Link to="/Tv">
-        <div className="flex flex-col items-center text-sm">
-        {location.pathname === "/Tv" ? (
-            <IoTv className="text-2xl" />
-          ) : (
-            <IoTvOutline className="text-2xl" />
-          )}
-          Live TV
+      {/* TV Link that opens modal */}
+        <button onClick={() => setShowTVModal(true)}>
+          <div className="flex flex-col items-center text-sm">
+            <IoMdTV className="text-2xl" />
+            TV
+          </div>
+        </button>
+      </div>
+
+      {/* TV Modal with iframe */}
+      {showTVModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+          <div className="relative w-full h-full max-w-4xl max-h-[80vh] bg-black">
+            <button 
+              className="absolute -top-10 right-0 text-white text-2xl z-10"
+              onClick={() => setShowTVModal(false)}
+            >
+              Close
+            </button>
+            <iframe
+              src="https://kkxstreamlive.pages.dev/"
+              className="w-full h-full border-none"
+              title="KKX Stream Live TV"
+              allowFullScreen
+            />
+          </div>
         </div>
-      </Link>
-    </div>
+      )}
+    </>
   );
 };
 
