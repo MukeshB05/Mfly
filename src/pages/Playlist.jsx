@@ -118,4 +118,4 @@ function Browse() {
     );
   }
 
-  export default Browse;
+  export default Playlist;
