@@ -9,7 +9,11 @@ const Navigator = () => {
   const location = useLocation();
   const [showTVModal, setShowTVModal] = useState(false);
 
+  const openTVModal = () => setShowTVModal(true);
+  const closeTVModal = () => setShowTVModal(false);
+  
   return (
+    
     <div className="lg:hidden fixed bottom-0 z-20 w-full Navigator h-[3.6rem] lg:h-[3.5rem] flex items-center justify-around">
       <Link to="/">
         <div className="flex flex-col items-center text-sm">
@@ -45,8 +49,7 @@ const Navigator = () => {
         </div>
       </Link>
 
-      {/* TV Link that opens modal */}
-        <button onClick={() => setShowTVModal(true)}>
+       <button onClick={openTVModal}>
           <div className="flex flex-col items-center text-sm">
             <IoMdTV className="text-2xl" />
             TV
@@ -54,13 +57,12 @@ const Navigator = () => {
         </button>
       </div>
 
-      {/* TV Modal with iframe */}
-      {showTVModal && (
+      {showTVModal ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative w-full h-full max-w-4xl max-h-[80vh] bg-black">
             <button 
               className="absolute -top-10 right-0 text-white text-2xl z-10 p-2"
-              onClick={() => setShowTVModal(false)}
+              onClick={closeTVModal}
             >
               × Close
             </button>
@@ -72,7 +74,7 @@ const Navigator = () => {
             />
           </div>
         </div>
-      )}
+      ) : null}
     </>
   );
 };
