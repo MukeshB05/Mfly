@@ -217,6 +217,7 @@ export default function App() {
             <Route path="/playlists/:id" element={<PlaylistDetails />} />
             <Route path="/Playlist" element={<Playlist />} />
             <Route path="/Favourite" element={<Favourite />} />
+            <Route path="/Tv" element={<Tv />} />
           </Routes>
         </Router>
         {showSuccessPopup && (
