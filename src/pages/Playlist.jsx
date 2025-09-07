@@ -7,8 +7,8 @@ import { useNavigate } from "react-router";
 import he from "he";
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-function Browse() {
-  const genres = ["For You", "Tamil" , "Malayalam" , "Hindi", "English" ,  "Kannada" , "Telugu", "Marathi", "Gujarati", "Bengali", "Haryanvi", "Punjabi", "Rajasthani"];
+function Playlist() {
+  const genres = ["For You", "Tamil", "Malayalam", "Hindi", "English", "Kannada", "Telugu", "Marathi", "Gujarati", "Bengali", "Haryanvi", "Punjabi", "Rajasthani"];
   const [selectedGenre, setSelectedGenre] = useState("For You");
   const [playlists, setPlaylists] = useState([]);
   const [loading, setLoading] = useState(false);
