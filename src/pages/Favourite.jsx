@@ -157,4 +157,4 @@ const MyMusic = () => {
   );
 };
 
-export default MyMusic;
+export default Favourite;
