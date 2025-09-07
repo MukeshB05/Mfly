@@ -30,9 +30,9 @@ const Navigator = () => {
         </div>
       </Link>
       
-      <Link to="/Music">
+      <Link to="/Favourite">
         <div className="flex flex-col items-center text-sm">
-        {location.pathname === "/Music" ? (
+        {location.pathname === "/Favourite" ? (
             <IoHeartSharp className="text-2xl" />
           ) : (
             <IoHeartOutline className="text-2xl" />
