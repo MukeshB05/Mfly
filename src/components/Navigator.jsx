@@ -19,14 +19,14 @@ const Navigator = () => {
         </div>
       </Link>
 
-      <Link to="/Browse">
+      <Link to="/Playlist">
         <div className="flex flex-col items-center text-sm">
-          {location.pathname === "/Browse" ? (
+          {location.pathname === "/Playlist" ? (
             <IoGrid className="text-2xl" />
           ) : (
             <IoGridOutline className="text-2xl" />
           )}
-          Browse
+          Playlist
         </div>
       </Link>
       
