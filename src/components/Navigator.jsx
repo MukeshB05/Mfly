@@ -1,5 +1,6 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
-import { IoGrid, IoGridOutline, IoHeartOutline, IoHeartSharp } from "react-icons/io5";
+import { IoHeartOutline, IoHeartSharp } from "react-icons/io5";
+import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigator = () => {
@@ -22,9 +23,9 @@ const Navigator = () => {
       <Link to="/Playlist">
         <div className="flex flex-col items-center text-sm">
           {location.pathname === "/Playlist" ? (
-            <IoGrid className="text-2xl" />
+            <RiFolderMusicFill className="text-2xl" />
           ) : (
-            <IoGridOutline className="text-2xl" />
+            <RiFolderMusicLine className="text-2xl" />
           )}
           Playlist
         </div>
