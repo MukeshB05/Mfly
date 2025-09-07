@@ -53,7 +53,7 @@ const MyMusic = () => {
             <FaHeart className="text-5xl  icon " />
           </span>
           <h2 className="text-[1.8rem] lg:text-3xl font-semibold lg:font-bold ml-4">
-            My Music
+            My Favourite
           </h2>
         </div>
 
