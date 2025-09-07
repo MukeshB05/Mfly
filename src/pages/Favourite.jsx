@@ -13,7 +13,7 @@ import {
 import PlaylistItems from "../components/Items/PlaylistItems";
 import AlbumItems from "../components/Items/AlbumItems";
 
-const MyMusic = () => {
+const Favourite = () => {
   const [likedSongs, setLikedSongs] = useState([]);
   const [likedAlbums, setLikedAlbums] = useState([]);
   const [list , setList ] = useState({});
