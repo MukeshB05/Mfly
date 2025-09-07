@@ -7,7 +7,7 @@ import ArtistsDetails from "./pages/ArtistsDetails";
 import SearchResult from "./pages/searchResult";
 import PlaylistDetails from "./pages/PlaylistDetails";
 import Browse from "./pages/Browse";
-import MyMusic from "./pages/myMusic";
+import Favourite from "./pages/Favourite";
 import he from "he";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -215,7 +215,7 @@ export default function App() {
             <Route path="/search/:query" element={<SearchResult />} />
             <Route path="/playlists/:id" element={<PlaylistDetails />} />
             <Route path="/Browse" element={<Browse />} />
-            <Route path="/Music" element={<MyMusic />} />
+            <Route path="/Favourite" element={<Favourite />} />
           </Routes>
         </Router>
         {showSuccessPopup && (
