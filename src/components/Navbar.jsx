@@ -164,11 +164,14 @@ const Navbar = () => {
         </div>
 
         <div className="lg:flex gap-[2rem] w-[15rem] grey hidden font-semibold">
-          <Link to="/Browse">
-            <h2 className="lg:text-xl text-lg">Browse</h2>
+          <Link to="/Playlist">
+            <h2 className="lg:text-xl text-lg">Playlist</h2>
           </Link>
           <Link to="/Favourite">
             <h2 className="lg:text-xl text-lg ">Favourite</h2>
+          </Link>
+          <Link to="/Tv">
+            <h2 className="lg:text-xl text-lg ">Tv</h2>
           </Link>
         </div>
       </div>
