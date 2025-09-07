@@ -8,7 +8,6 @@ import SearchResult from "./pages/searchResult";
 import PlaylistDetails from "./pages/PlaylistDetails";
 import Playlist from "./pages/Playlist";
 import Favourite from "./pages/Favourite";
-import Tv from "./pages/Tv";
 import he from "he";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -217,7 +216,6 @@ export default function App() {
             <Route path="/playlists/:id" element={<PlaylistDetails />} />
             <Route path="/Playlist" element={<Playlist />} />
             <Route path="/Favourite" element={<Favourite />} />
-            <Route path="/Tv" element={<Tv />} />
           </Routes>
         </Router>
         {showSuccessPopup && (
