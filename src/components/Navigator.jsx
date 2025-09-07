@@ -1,5 +1,5 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
-import { IoHeartOutline, IoHeartSharp } from "react-icons/io5";
+import { IoHeartOutline, IoHeartSharp, IoTv, IoTvOutline } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
 
@@ -39,6 +39,17 @@ const Navigator = () => {
             <IoHeartOutline className="text-2xl" />
           )}
           Favourite
+        </div>
+      </Link>
+
+      <Link to="/Tv">
+        <div className="flex flex-col items-center text-sm">
+        {location.pathname === "/Tv" ? (
+            <IoTv className="text-2xl" />
+          ) : (
+            <IoTvOutline className="text-2xl" />
+          )}
+          Live TV
         </div>
       </Link>
     </div>
