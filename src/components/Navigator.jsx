@@ -37,7 +37,7 @@ const Navigator = () => {
           ) : (
             <IoHeartOutline className="text-2xl" />
           )}
-          My Music
+          Favourite
         </div>
       </Link>
     </div>
