@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Navigator from "../components/Navigator";
 
-const TV = () => {
+const Tv = () => {
   return (
     <div className="w-full h-screen">
       <iframe 
@@ -16,4 +16,4 @@ const TV = () => {
   );
 };
 
-export default TV;
+export default Tv;
