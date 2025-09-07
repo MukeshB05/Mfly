@@ -1,6 +1,4 @@
-import { useState, useEffect, useRef } from "react";
-import Navigator from "../components/Navigator";
-
+// TV.jsx (new component for the TV page)
 const Tv = () => {
   return (
     <div className="w-full h-screen">
@@ -11,8 +9,6 @@ const Tv = () => {
         allowFullScreen
       />
     </div>
-    <Navigator />
-  </>
   );
 };
 
