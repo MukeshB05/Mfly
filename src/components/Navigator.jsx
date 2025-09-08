@@ -52,7 +52,7 @@ return (
         <button onClick={openTVModal}>
           <div className="flex flex-col items-center text-sm">
             <MdLiveTv className="text-2xl" />
-            TV
+            Live TV
           </div>
         </button>
       </div> {/* This closing div was missing */}
