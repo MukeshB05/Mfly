@@ -49,15 +49,15 @@ return (
         </div>
       </Link>
 
-       <button onClick={openTVModal}>
+        <button onClick={openTVModal}>
           <div className="flex flex-col items-center text-sm">
             <MdLiveTv className="text-2xl" />
             TV
           </div>
         </button>
-      </div>
+      </div> {/* This closing div was missing */}
 
-      {showTVModal ? (
+      {showTVModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative w-full h-full max-w-4xl max-h-[80vh] bg-black">
             <button 
@@ -74,7 +74,7 @@ return (
             />
           </div>
         </div>
-      ) : null}
+      )}
     </>
   );
 };
