@@ -1,7 +1,7 @@
 import { GoHome, GoHomeFill } from "react-icons/go";
 import { IoHeartOutline, IoHeartSharp, } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
-import { IoMdTV } from "react-icons/io";
+import { MdLiveTv } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react"; // Added useState import
 
@@ -51,7 +51,7 @@ return (
 
        <button onClick={openTVModal}>
           <div className="flex flex-col items-center text-sm">
-            <IoMdTV className="text-2xl" />
+            <MdLiveTv className="text-2xl" />
             TV
           </div>
         </button>
