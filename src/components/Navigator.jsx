@@ -71,10 +71,9 @@ return (
               className="w-full h-full border-none"
               title="KKX Stream Live TV"
               allowFullScreen
-              style={{
-              overflow: 'hidden',
-              scrolling: 'no'
-            }}
+              frameBorder="0"
+              scrolling="no"
+              style={{ overflow: 'hidden' }}
             />
           </div>
         </div>
