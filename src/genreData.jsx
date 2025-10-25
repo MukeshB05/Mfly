@@ -862,25 +862,25 @@ export const artistData = {
         "url": "https://www.jiosaavn.com/artist/vidyasagar-songs/j,xkKnlFhBQ_"
       },
       {
-        "id": "455127",
-        "name": "Udit Narayan",
+        "id": "758652",
+        "name": "B.K. Harinarayanan",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Udit_Narayan_004_20241029065120_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/BK_Harinarayanan_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Udit_Narayan_004_20241029065120_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/BK_Harinarayanan_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Udit_Narayan_004_20241029065120_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/BK_Harinarayanan_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/udit-narayan-songs/kLtmb7Vh8Rs_"
+        "url": "https://www.jiosaavn.com/artist/b.k.-harinarayanan-songs/mkSKDPUH-LA_"
       },
       {
         "id": "741999",
@@ -967,25 +967,46 @@ export const artistData = {
         "url": "https://www.jiosaavn.com/artist/anirudh-ravichander-songs/lBzQd8c-xCY_"
       },
       {
-        "id": "455170",
-        "name": "Devi Sri Prasad",
+        "id": "483697",
+        "name": "Vidhu Prathap",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Devi_Sri_Prasad_007_20240902064823_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidhu_Prathap_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Devi_Sri_Prasad_007_20240902064823_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidhu_Prathap_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Devi_Sri_Prasad_007_20240902064823_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidhu_Prathap_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/devi-sri-prasad-songs/M0dlT,PMjDs_"
+        "url": "https://www.jiosaavn.com/artist/vidhu-prathap-songs/MWFCNKtLLU8_"
+      },
+      {
+        "id": "546310",
+        "name": "Vineeth Sreenivasan",
+        "role": "Artist",
+        "image": [
+          {
+            "quality": "50x50",
+            "url": "https://c.saavncdn.com/artists/Vineeth_Sreenivasan_003_20240508103358_50x50.jpg"
+          },
+          {
+            "quality": "150x150",
+            "url": "https://c.saavncdn.com/artists/Vineeth_Sreenivasan_003_20240508103358_150x150.jpg"
+          },
+          {
+            "quality": "500x500",
+            "url": "https://c.saavncdn.com/artists/Vineeth_Sreenivasan_003_20240508103358_500x500.jpg"
+          }
+        ],
+        "type": "artist",
+        "url": "https://www.jiosaavn.com/artist/vineeth-sreenivasan-songs/fAJ-8yU6XKU_"
       }
     ]
 };
