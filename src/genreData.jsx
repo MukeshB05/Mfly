@@ -715,151 +715,151 @@ export const artistData = {
         "url": "https://www.jiosaavn.com/artist/hariharan-songs/Z2qyrGA65Yo_"
       },
       {
-        "id": "485956",
-        "name": "Yo Yo Honey Singh",
+        "id": "455243",
+        "name": "Harris Jayaraj",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Yo_Yo_Honey_Singh_002_20221216102650_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Harris_Jayaraj_002_20230718071330_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Yo_Yo_Honey_Singh_002_20221216102650_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Harris_Jayaraj_002_20230718071330_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Yo_Yo_Honey_Singh_002_20221216102650_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Harris_Jayaraj_002_20230718071330_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/yo-yo-honey-singh-songs/06QxyAvVpB4_"
+        "url": "https://www.jiosaavn.com/artist/harris-jayaraj-songs/flXnIQrphaE_"
       },
       {
-        "id": "456863",
-        "name": "Badshah",
+        "id": "456164",
+        "name": "Vijay Antony",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Badshah_006_20241118064015_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_Antony_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Badshah_006_20241118064015_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_Antony_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Badshah_006_20241118064015_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Vijay_Antony_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/badshah-songs/d4OwAaEcnD0_"
+        "url": "https://www.jiosaavn.com/artist/vijay-antony-songs/8lpgF4Reww8_"
       },
       {
-        "id": "468245",
-        "name": "Diljit Dosanjh",
+        "id": "455457",
+        "name": "Saindhavi",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Diljit_Dosanjh_005_20231025073054_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Saindhavi_000_20210603093829_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Diljit_Dosanjh_005_20231025073054_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Saindhavi_000_20210603093829_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Diljit_Dosanjh_005_20231025073054_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Saindhavi_000_20210603093829_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/diljit-dosanjh-songs/oIVHdWIO5F8_"
+        "url": "https://www.jiosaavn.com/artist/saindhavi-songs/f53-W5eAGMs_"
       },
       {
-        "id": "681966",
-        "name": "AP Dhillon",
+        "id": "455279",
+        "name": "Unni Menon",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/AP_Dhillon_002_20230918073841_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Unni_Menon_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/AP_Dhillon_002_20230918073841_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Unni_Menon_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/AP_Dhillon_002_20230918073841_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Unni_Menon_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/ap-dhillon-songs/fBfisFn5rbc_"
+        "url": "https://www.jiosaavn.com/artist/unni-menon-songs/8a4GOKXGRG0_"
       },
       {
-        "id": "881158",
-        "name": "Jubin Nautiyal",
+        "id": "1984879",
+        "name": "Chinmayi Sripada",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Jubin_Nautiyal_003_20231130204020_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Chinmayi_Sripada_002_20241206081603_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Jubin_Nautiyal_003_20231130204020_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Chinmayi_Sripada_002_20241206081603_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Jubin_Nautiyal_003_20231130204020_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Chinmayi_Sripada_002_20241206081603_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/jubin-nautiyal-songs/uGdfg6zGf4s_"
+        "url": "https://www.jiosaavn.com/artist/chinmayi-sripada-songs/dUPdrrGYfPk_"
       },
       {
-        "id": "8812560",
-        "name": "Dhanda Nyoliwala",
+        "id": "455454",
+        "name": "G.V. Prakash Kumar",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Dhanda_Nyoliwala_000_20240820133551_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/G_V__Prakash_Kumar_002_20230609103801_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Dhanda_Nyoliwala_000_20240820133551_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/G_V__Prakash_Kumar_002_20230609103801_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Dhanda_Nyoliwala_000_20240820133551_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/G_V__Prakash_Kumar_002_20230609103801_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/dhanda-nyoliwala-songs/QigrV5leMIs_"
+        "url": "https://www.jiosaavn.com/artist/g.v.-prakash-kumar-songs/b2CMYiogn3E_"
       },
       {
-        "id": "672167",
-        "name": "Harrdy Sandhu",
+        "id": "455496",
+        "name": "Vidyasagar",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Hardy_Sandhu_001_20190913112018_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidyasagar_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Hardy_Sandhu_001_20190913112018_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidyasagar_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Hardy_Sandhu_001_20190913112018_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Vidyasagar_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/harrdy-sandhu-songs/rO,WF5NKKsQ_"
+        "url": "https://www.jiosaavn.com/artist/vidyasagar-songs/j,xkKnlFhBQ_"
       },
       {
         "id": "455127",
@@ -925,25 +925,25 @@ export const artistData = {
         "url": "https://www.jiosaavn.com/artist/k.-s.-chithra-songs/doElLvdHCyk_"
       },
       {
-        "id": "455142",
-        "name": "Kumar Sanu",
+        "id": "674805",
+        "name": "Jyotsna Radhakrishnan",
         "role": "Artist",
         "image": [
           {
             "quality": "50x50",
-            "url": "https://c.saavncdn.com/artists/Kumar_Sanu_50x50.jpg"
+            "url": "https://c.saavncdn.com/artists/Jyotsna_Radhakrishnan_50x50.jpg"
           },
           {
             "quality": "150x150",
-            "url": "https://c.saavncdn.com/artists/Kumar_Sanu_150x150.jpg"
+            "url": "https://c.saavncdn.com/artists/Jyotsna_Radhakrishnan_150x150.jpg"
           },
           {
             "quality": "500x500",
-            "url": "https://c.saavncdn.com/artists/Kumar_Sanu_500x500.jpg"
+            "url": "https://c.saavncdn.com/artists/Jyotsna_Radhakrishnan_500x500.jpg"
           }
         ],
         "type": "artist",
-        "url": "https://www.jiosaavn.com/artist/kumar-sanu-songs/fe0z9ZAFgGE_"
+        "url": "https://www.jiosaavn.com/artist/jyotsna-radhakrishnan-songs/2teiuukQ3Tk_"
       },
       {
         "id": "455663",
