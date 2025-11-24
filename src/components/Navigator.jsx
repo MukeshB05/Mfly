@@ -72,7 +72,7 @@ return (
               title="Dreamly5 Live TV"
               allowFullScreen
               frameBorder="0"
-              scrolling="no"
+              scrolling="yes"
               style={{ overflow: 'hidden' }}
             />
           </div>
