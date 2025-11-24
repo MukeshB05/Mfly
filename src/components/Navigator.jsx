@@ -67,9 +67,9 @@ return (
               × Close
             </button>
             <iframe
-              src="https://kkxstreamlive.pages.dev/"
+              src="https://dreamplay.pages.dev/"
               className="w-full h-full border-none"
-              title="KKX Stream Live TV"
+              title="Dreamly5 Live TV"
               allowFullScreen
               frameBorder="0"
               scrolling="no"
