@@ -2,7 +2,7 @@ import { GoHome, GoHomeFill } from "react-icons/go";
 import { IoHeartOutline, IoHeartSharp } from "react-icons/io5";
 import { RiFolderMusicFill, RiFolderMusicLine } from "react-icons/ri";
 import { MdLiveTv } from "react-icons/md";
-import { useState, useEffect } from "react"; // Added useState and useEffect import
+import { useState, useEffect } from "react"; // Keep useState and useEffect
 import { Link, useLocation } from "react-router-dom";
 
 const Navigator = () => {
@@ -11,10 +11,21 @@ const Navigator = () => {
   const [wakeLockStatus, setWakeLockStatus] = useState("Inactive");
   const [wakeLock, setWakeLock] = useState(null);
 
-  const openTVModal = () => setShowTVModal(true);
-  const closeTVModal = () => setShowTVModal(false);
+  const openTVModal = () => {
+    setShowTVModal(true);
+    setWakeLockStatus("Active"); // Set status to Active when iframe is opened
+  };
+  const closeTVModal = () => {
+    setShowTVModal(false);
+    // Optionally release wake lock on close
+    if (wakeLock) {
+      wakeLock.release();
+      setWakeLock(null);
+      setWakeLockStatus("Inactive");
+    }
+  };
 
-  // Function to request wake lock
+  // Request wake lock
   const requestWakeLock = async () => {
     try {
       if ("wakeLock" in navigator) {
@@ -33,7 +44,6 @@ const Navigator = () => {
     }
   };
 
-  // Function to release wake lock
   const releaseWakeLock = () => {
     if (wakeLock) {
       wakeLock.release();
@@ -42,21 +52,22 @@ const Navigator = () => {
     }
   };
 
-  // Optional: Automatically request wake lock when clicking Live TV
   const handleLiveTvClick = () => {
     requestWakeLock();
     openTVModal();
   };
 
-  // Handle visibility change to re-request wake lock if needed
   useEffect(() => {
-    document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "visible" && wakeLock === null) {
+    // Optional: re-request wake lock when tab becomes visible
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible" && !wakeLock) {
         requestWakeLock();
+        setWakeLockStatus("Active");
       }
-    });
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
     return () => {
-      document.removeEventListener("visibilitychange", () => {});
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
   }, [wakeLock]);
 
