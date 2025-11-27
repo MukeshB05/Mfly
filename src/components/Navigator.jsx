@@ -17,7 +17,6 @@ const Navigator = () => {
   };
   const closeTVModal = () => {
     setShowTVModal(false);
-    // Optionally release wake lock on close
     if (wakeLock) {
       wakeLock.release();
       setWakeLock(null);
@@ -25,7 +24,6 @@ const Navigator = () => {
     }
   };
 
-  // Request wake lock
   const requestWakeLock = async () => {
     try {
       if ("wakeLock" in navigator) {
@@ -58,7 +56,6 @@ const Navigator = () => {
   };
 
   useEffect(() => {
-    // Optional: re-request wake lock when tab becomes visible
     const handleVisibilityChange = () => {
       if (document.visibilityState === "visible" && !wakeLock) {
         requestWakeLock();
@@ -118,7 +115,8 @@ const Navigator = () => {
           </div>
         </button>
 
-        {/* Wake Lock Status Indicator */}
+        {/* REMOVE OR COMMENT OUT THIS SECTION TO HIDE THE WAKE LOCK STATUS BUTTON */}
+        {/*
         <div className="flex flex-col items-center text-sm px-2">
           <button
             className="flex items-center space-x-2"
@@ -132,6 +130,7 @@ const Navigator = () => {
             </span>
           </button>
         </div>
+        */}
       </div>
 
       {showTVModal && (
