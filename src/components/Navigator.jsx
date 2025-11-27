@@ -107,15 +107,18 @@ const Navigator = () => {
           </div>
         </Link>
 
-        {/* Live TV Button */}
-        <button onClick={handleLiveTvClick}>
-          <div className="flex flex-col items-center text-sm">
+        {/* Live TV Button with Status Indicator */}
+        <button onClick={handleLiveTvClick} className="relative flex flex-col items-center text-sm">
+          <div className="flex items-center space-x-2">
             <MdLiveTv className="text-2xl" />
-            Live TV
+            {wakeLockStatus === "Active" && (
+              <span className="text-xs text-green-500 font-semibold">Active</span>
+            )}
           </div>
+          <span>Live TV</span>
         </button>
 
-        {/* REMOVE OR COMMENT OUT THIS SECTION TO HIDE THE WAKE LOCK STATUS BUTTON */}
+        {/* Optional: Remove or comment out the wake lock status button below */}
         {/*
         <div className="flex flex-col items-center text-sm px-2">
           <button
