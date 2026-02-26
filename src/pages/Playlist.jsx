@@ -44,7 +44,7 @@ function Playlist() {
     try {
       setLoading(true);
       const response = await fetch(`https://jiosavan-api-with-playlist.vercel.app/api/search/playlists?query=${genre.toLowerCase()}&limit=130`);
-      // const response = await fetch(`https://saavn.dev/api/search/playlists?query=${genre.toLowerCase()}&limit=130`);
+      // const response = await fetch(`https://saavn.sumit.co/api/search/playlists?query=${genre.toLowerCase()}&limit=130`);
       
       const data = await response.json();
      
