@@ -45,7 +45,7 @@ const ArtistsDetails = () => {
         let response = await fetch(`https://jiosavan-api-with-playlist.vercel.app/api/artists?id=${id}`);
         
          if (!response.ok) {
-          response = await fetch(`https://saavn.dev/api/artists?id=${id}`);
+          response = await fetch(`https://saavn.sumit.co/api/artists?id=${id}`);
         }
   
         if (!response.ok) {
