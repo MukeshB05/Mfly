@@ -1,5 +1,5 @@
 
-const api_url = 'https://jiosavan-api-with-playlist.vercel.app/api/';
+const api_url = 'https://saavn.sumit.co/api/';
 if (!api_url) {
     console.log("Error Fetching API");
 };
