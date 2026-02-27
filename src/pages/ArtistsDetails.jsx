@@ -42,7 +42,7 @@ const ArtistsDetails = () => {
   useEffect(() => {
     const fetchDetails = async () => {
       try {
-        let response = await fetch(`https://jiosavan-api-with-playlist.vercel.app/api/artists?id=${id}`);
+        let response = await fetch(`https://saavn.sumit.co/api/artists?id=${id}`);
         
          if (!response.ok) {
           response = await fetch(`https://saavn.sumit.co/api/artists?id=${id}`);
