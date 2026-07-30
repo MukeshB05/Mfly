@@ -15,9 +15,9 @@ const Footer = () => {
 
         <div >
         <div>
-            <pre className="lg:text-sm text-xs">Website Create & Handled by Mukesh. </pre>
+            <pre className="lg:text-sm text-xs">Website Create & Handled by Mukesh B</pre>
         <ul className="flex gap-4 ">
-            <li><a href="https://www.instagram.com/mukeshb2305" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Mukesh B</pre></a></li>
+            <li><a href="https://www.facebook.com/dreamlynetwok" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Powered by</pre></a></li>
             <li><a href="https://www.instagram.com/dreamlynetwork" className="hover:underline text-[13px] lg:text-[15px]" target=" "><pre>Dreamly Network</pre></a></li>
 
         </ul>
