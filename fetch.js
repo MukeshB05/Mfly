@@ -1,5 +1,5 @@
 
-const api_url = 'https://shnwazdev-jiosaavn-apii.vercel.app/api';
+const api_url = 'https://jiosaavn-api-black.vercel.app/api';
 if (!api_url) {
     console.log("Error Fetching API");
 };
