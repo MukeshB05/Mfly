@@ -1,5 +1,5 @@
 
-const api_url = 'https://jiosavan.clashgram.workers.dev/api';
+const api_url = 'https://shnwazdev-jiosaavn-apii.vercel.app/api';
 if (!api_url) {
     console.log("Error Fetching API");
 };
