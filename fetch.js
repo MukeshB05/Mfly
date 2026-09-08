@@ -1,5 +1,5 @@
 
-const api_url = 'https://jiosaavn-api-nine.vercel.app/api';
+const api_url = 'https://jiosaavn-api-one-rho.vercel.app/api';
 if (!api_url) {
     console.log("Error Fetching API");
 };
